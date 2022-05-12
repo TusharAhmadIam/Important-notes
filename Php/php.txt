@@ -1,0 +1,43 @@
+Important codes - PHP
+//destructuring
+	list($param1,$param2) = ['index1','index2']	//destructures a array
+//session codes
+	session_regenerate_id(true) 			//if set true session file will replace in tmp folder
+	session.use_strict_mode = 1 			//set it in php.ini /if set 1 browser session will not be create in server
+//download codes
+	header()
+	flush()						//helps to file upload	
+	scandir('directory')
+	file_exists('filepath')
+//gd library
+	header('content-Type:image/jpeg')		//for showing image // remove header to prevent blank screen when save
+	imagecreatefromjpeg('image.jpg') / imagecreatefrompng() / imagecreatefromgif()
+	imagecolorallocate($image,r,g,b)
+	imagettftext($image,font-size,angle,x-axis,y-axis,$text-color,$font,$text)
+	imagejpeg($image,'dir-to-save?',quality?)/imagepng()/imagegif()	//only first parameter is required
+	imagedestroy($image)
+	getimagesize($image)				//returns array
+
+	//resize or crop a image
+	|$source_image = imagecreatefromjpeg()
+	|$newimage = imagecreatetruecolor($new_width,$new_height)	
+	|imagecopyresized($newimage,$source_image,$new_x,$new_y,$src_x,$src_y,$new_width,$new_height,$src_width,$src_height);
+	
+	imagecopy($bg_image, $watermark_image, int $bg_x, int $bg_y, int $watermark_x, int $watermark_y, int $watermark_width, int $watermark_height)
+	imagefill()
+	imagestring()
+	<img src="captcha.php">						
+//time and date
+	time()	
+//math 
+	round()
+	rand(1111,9999)
+//api
+	header('Content-Type:application/json')
+	json_encode('status'=>'true','msg'=>'data found','data'=>$arr)
+	json_decode($result,true)			//if true data will fetch as array
+	json_decode(file_get_contents('php://input'))	//it will get request from url and get any kinds of json data
+
+//url
+	urlencode()
+	urldecode()

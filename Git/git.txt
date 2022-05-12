@@ -1,0 +1,108 @@
+Important Git commands
+..............
+Vim
+..............
+:wq 							//To save & exit from Vim
+i							//To edit vim editor
+esc							//to exit editing
+------------------------------------------------------------------------------------------------------------------------------------
+............
+Nano editor
+...........
+nano filename						//opens a file in nano editor
+ctrl + k						//deletes a line
+------------------------------------------------------------------------------------------------------------------------------------
+..............
+Git
+..............
+git init						//Initialize a empty repository
+ls -la							//Check all file folders
+git status						//Check status
+git add filename					
+git add .
+git commit -m 'message'
+git log
+git log --oneline
+git show commitId					//Shows specific commit
+git diff
+git diff --staged
+git diff commitId commitId				//Shows the difference between two commits
+git rm filename						//Deletes a file from directory and git
+git reset Head filename					//Resets staged changes blue to red 
+git checkout commitId filename				//Go back to a commit
+git clone url
+git clone url directoryName
+git remote add origin url
+git push -u origin master
+git push origin master
+git revert commitId
+git reset commitId
+git reset commitId --hard
+git config --global user.name 'username'
+git config --global user.email 'email'
+git clone url/repo.git
+git status
+git add filename
+git add .
+git commit -m 'message'
+git push						
+git pull						//Fetch and merge remote to local //copy changes remote to local
+git merge branchname
+git log 
+git log --oneline
+git log --oneline --graph --decorate --all
+git config --global alias.lol 'log --oneline --graph --decorate --all //creating alias
+git revert commitId
+git add --all						//add everything to staging
+git ls-files						//see how many files in staging area
+git rm--cached filename					//remove a file from staging area
+git rm--cached . -r					//remove all files from staging area
+git branch						//shows branches
+git branch --all
+git branch branchname
+git branch -d branchname				//deletes a merged branch
+git branch -D branchname				//deletes a unmerged branch
+git branch -m old newbranchname				//renames a branch
+git checkout branchName
+git merge branchName					//First go to master branch 
+git merge --abort					//abort merge after conflict
+git commit						//only enter "git commit" after resolving merge conflict
+git checkout -b branchName				//Create and go to branch
+git cat-file -p commitid				//Shows commited objects files contents
+git branch -r						//shows all remote branches
+git push -u origin branchname				//pushes new local branch to remote repository
+git remote show origin					//shows origin information
+git branch -vv						//shows tracking branches
+git remote update origin --prune			//local repository knows remote tracking branch deleted //deletes deleted remote branch from local repository
+git push origin -d branchname				//delete remote branch from local terminal
+git show-ref						//shows difference of local and remote branches references
+git show-ref branchname					//shows difference of references between remote and local branch
+git commit --amend --author="username <email@src.com>"  //change author of local repository
+git config --list
+git remote add upstream forkRepoUrl			//make remote server for pulling from source forked repository
+git reset commitId
+git reset commitId --hard/soft
+git reset HEAD~5					//reset last 5 commits
+git revert commitId					//reverse changes of specific commit
+.........................................................
+Git tags
+.........................................................
+
+.........................................................
+Git rebase
+.........................................................
+git checkout feature1
+git rebase baseBranch
+git checkout baseBranch
+git merge feature1
+.........................................................
+Gitignore
+.........................................................
+	#						//single line comments
+	filename.extension				//ignore single line
+	foldername/					//ignore all files in that folder
+	*.extension					//ignore all files with specified extension (ex- .tmp) 
+--------------------------------------------------------------------------------------------------------------------------------------
+Github
+--------------------------------------------------------------------------------------------------------------------------------------
+Pull request heading good practice ---> [branchname] some heading here

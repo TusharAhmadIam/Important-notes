@@ -1,0 +1,3 @@
+//CSS important codes
+
+width: calc(80%-2px);

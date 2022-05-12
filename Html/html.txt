@@ -1,0 +1,7 @@
+Html important notes
+--------------------------------------------------------------------------------------------------------------------------------------
+<a href="cv/cv.txt" download class="button">download my CV</a>						//download a file 
+aria-label="Hello world"
+aria-hidden="true"
+role="navigation"
+aria-label="main menu"

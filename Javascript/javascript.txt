@@ -1,0 +1,78 @@
+Javascript important function and codes
+
+typeof undefined / typeof(undefined)
+
+//string methods
+	txt.length
+	txt[0] 		// returns first letter
+	slice(start, end)
+	substring(start, end)
+	substr(start, length)
+	indexOf()
+	lastIndexOf()
+	search()
+	match()
+	includes()
+	startsWith()
+	endsWith()
+	replace()
+	trim()
+	charAt(position) 
+	split(',') 	// returns array
+
+
+//number methods
+	isNaN(variable)
+	toString()	// returns string
+	valueof() 	//returns number
+	toExponential()
+	x.toFixed(2) 	// returns string with decimal by given parameter / x = 12.5788 - returns 12.58
+	toPrecision()
+	-------
+	|global javascript mehtods
+	|Number()
+	|parseInt()
+	|parseFloat()
+	-------
+//form methods
+	inputField.focus() 
+	checkBox.checked
+	regex.test(value)
+	isNaN(phone)
+	email.indexOf('@') == -1 // if @ string not presents in email
+	inputValue.trim()
+	array.includes(value)	//check if a value exists in array
+	const pattern = new RegExp(/regex/flag);
+	pattern.test(input value)
+
+//Object/prototype methods
+	bind()
+	call()
+	apply()
+	Object.create()
+	Object.assign()
+	for(properties in obj){obj[properties]}
+//Array methods
+	Arry.isArray(var)	//use to understand object or array or --> var instanceof Array
+	array.length
+	array.forEach()
+	array.push()		//add elements at last of a array and returns new array length
+	array.pop()		//removes last element and returns it
+	array.unshift		//add elements at first of a array and returns new array length
+	array.shift		//removes first element and returns it
+	array.join('separator') //return string with all array elements with separator
+	array.splice(starting index,how many to remove,banana,mango add) 
+	array.slice(starting index,how many to return without including last element) //returns a sliced array
+	array.sort(function(a,b){return a-b})		
+	array.reverse()		//first sort the array then reverse it
+	array.includes(value)	//check if a value exists in array
+	array.forEach(function(value,index,array){})
+	array.map(function(value,index,array){})
+	array.filter(function(value,index,array){})
+	
+
+//Events
+	onfocusout
+//Json
+	JSON.stringify(obj)
+	JSON.parse(obj)

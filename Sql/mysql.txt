@@ -1,0 +1,5 @@
+Mysql important codes
+
+MONTHNAME(table_name)
+SUM(table_name)
+MONTH(table_name)

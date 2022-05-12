@@ -1,0 +1,29 @@
+jquery important codes
+
+$(selector).hide(speed,callback);
+
+$(selector).show(speed,callback);
+
+$(selector).fadeIn(speed,callback);
+
+$(selector).fadeOut(speed,callback);
+
+$(selector).fadeToggle(speed,callback);
+
+$(selector).fadeTo(speed,opacity,callback);
+
+$(selector).slideDown(speed,callback);
+
+$(selector).slideUp(speed,callback);
+
+$(selector).slideToggle(speed,callback);
+
+$(selector).animate({params},speed,callback);
+
+$(selector).stop(stopAll,goToEnd);
+
+.hasClass('.class-name');			// returns true or false
+.serialize()					// returns form data
+.data('id')					// returns data-id value
+
+regexPattern.test(value)			// tests regular expression

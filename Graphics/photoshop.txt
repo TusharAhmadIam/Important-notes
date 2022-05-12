@@ -1,0 +1,5 @@
+Photoshop important things
+passport size photo -> width 40mm height 50mm resoulution 300
+stamp size photo -> width 20mm height 25mm resoulution 300
+picresize.com -> resize and customize your photo
+removebg.com -> remove bg and make bg online

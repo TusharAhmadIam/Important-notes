@@ -1,0 +1,38 @@
+Important commands
+Git bash
+------------------------------------------------------------------------------------------------------------------------------------
+cp --help							//shows helps of copy
+pwd								//present working directory
+cd								//Change directory
+.								//single dot means present directory
+..								//double dot means one directory back
+(start/explorer/open) .						//opens current folder in explorer					
+cd ~								//change directory to home/desktop
+cd /c/								//change directory to a drive
+press tab key to autocomplete
+press "ctrl c" to exit from current command
+nano filename							//edits that folder
+echo "Hello world"						//print something to terminal
+>								//write to the file
+>>								//append to the file
+echo "Hello" > hello.txt					//creates a 'hello' written file inside it
+echo "World" >> hello.txt					//appends 'world' to hello.txt
+cat filename							//reads a file in terminal 
+ls -la								//shows all kinds of folders
+ls foldername							//shows files and folders in given folder  
+ls -la foldername						//shows all in given folder 
+ls -la foldername foldername					//shows all in those folders
+touch filename 							//creates a file
+touch filename filename						//nesting
+mkdir foldername						//creates a folder
+mkdir foldername foldername					//nesting 
+rm filename							//deletes a file
+rm filename filename						//nesting
+rm -iv foldername/filename					//remove a file (i flag for confirmation and v for shows what he did)	
+rm foldername/*							//deletes all files in that folder 
+rm -r foldername/*						//deletes all files and subfolders in a directory
+rm -r foldername						//deletes a directory with all contained files and folders
+rmdir foldername						//deletes a empty folder
+rmdir foldername foldername					//nesting
+mv filename	/mv foldername					//rename file/folder
+****use "-r" flag for folder with file 
