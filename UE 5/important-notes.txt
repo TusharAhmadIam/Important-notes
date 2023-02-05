@@ -1,0 +1,10 @@
+Important notes for UE 5
+
+Bulueprint
+-----------
+	Flow controll
+	-------------
+	Branch (node)		-> If statement
+	Sequench (node)		-> One after one
+	Flip Flop (node)	-> Toggler between A - B
+	Gate (node)
