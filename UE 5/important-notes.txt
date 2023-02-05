@@ -8,3 +8,8 @@ Bulueprint
 	Sequench (node)		-> One after one
 	Flip Flop (node)	-> Toggler between A - B
 	Gate (node)
+	--------------
+	Functions
+	--------------
+	Toggle visibility
+	Set visibility
