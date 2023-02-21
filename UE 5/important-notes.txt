@@ -4,12 +4,30 @@ Bulueprint
 -----------
 	Flow controll
 	-------------
-	Branch (node)		-> If statement
-	Sequench (node)		-> One after one
-	Flip Flop (node)	-> Toggler between A - B
+	Branch (node)			-> If statement
+	Sequench (node)			-> One after one
+	Flip Flop (node)		-> Toggler between A - B
 	Gate (node)
 	--------------
 	Functions
 	--------------
-	Toggle visibility
-	Set visibility
+	Lerp				-> Returns percentage value
+	Lerp(vector)
+	--------------
+	Character
+	--------------
+	Add controler Pitch input	-> Look up down	(Note: My Character class -> Pawn category -> Use controller rotation pitch should enabled)
+	Add controler Yaw input		-> Look Left right
+	Add movement input		-> Moves a character
+	Get control rotation		-> Gets rotation of actor
+	Get forward vector		-> Gets axis forward 
+	Get right vector		-> Gets axis righ
+	-------------
+	Pause game
+	-------------
+	Is game paused			-> Checks game paused or not
+	Set game paused			-> Pauses games
+	--------------
+	Intput 
+	--------------
+	Enable input			-> Enables input in other blueprint classes
