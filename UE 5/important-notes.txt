@@ -31,3 +31,16 @@ Bulueprint
 	Intput 
 	--------------
 	Enable input			-> Enables input in other blueprint classes
+	--------------
+	Material
+	--------------
+	Tips					-> Always use texture in material (insteat of node constant).Texture will speed up your game fps.
+	emmesive color			-> It is like lighting to the object
+	specular				-> It is like leather
+	--------------
+	Game Mode
+	--------------
+	Tips					-> Change Default Game mode from project settings - maps and modes
+							-> Overwrite Game Mode from world settings
+	Hud (class)				-> Players Ammo, Health etc
+	Default Pawn class		-> Default player	
