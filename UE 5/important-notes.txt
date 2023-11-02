@@ -66,3 +66,7 @@ Bulueprint
 	--------------
 	get actor rotation
 	calculate direction
+	--------------
+	Collapsing
+	--------------
+	Tips						-> Always try to avoid "collapse to function" - It will slow down your game a little - Try to use collapse to node and macroes
