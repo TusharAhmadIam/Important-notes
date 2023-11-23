@@ -65,8 +65,10 @@ Bulueprint
 	--------------
 	Direction
 	--------------
-	get actor rotation
+	get actor rotation			-> where is actor looking
+	get control rotation
 	calculate direction
+	delta (rotator)				> it calculates the change between two rotation 
 	--------------
 	Collapsing
 	--------------
