@@ -22,6 +22,7 @@ Bulueprint
 	Get control rotation		-> Gets rotation of actor
 	Get forward vector			-> Gets axis forward 
 	Get right vector			-> Gets axis righ
+	get turn					-> Gives turn value
 	-------------
 	Pause game
 	-------------
@@ -70,3 +71,10 @@ Bulueprint
 	Collapsing
 	--------------
 	Tips						-> Always try to avoid "collapse to function" - It will slow down your game a little - Try to use collapse to node and macroes
+	--------------------
+	Animation montage
+	--------------------
+	Layered blend per bone		-> It will separate body when animation
+	--------------------
+	Animation aim offset
+	--------------------
