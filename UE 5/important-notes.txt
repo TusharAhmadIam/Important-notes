@@ -62,6 +62,7 @@ Bulueprint
 	try to get own Pawn			-> Cast to player character here (node)
 	ifFalling (f)				-> Player is on ground or not (boolean)
 	New save cached pose		-> 
+	Time remaining				-> Checks animation finish time
 	--------------
 	Direction
 	--------------
