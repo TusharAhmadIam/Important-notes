@@ -63,6 +63,7 @@ Bulueprint
 	ifFalling (f)				-> Player is on ground or not (boolean)
 	New save cached pose		-> 
 	Time remaining				-> Checks animation finish time
+	Interp to					-> Like timeline / Animates some value 
 	--------------
 	Direction
 	--------------
@@ -81,3 +82,12 @@ Bulueprint
 	--------------------
 	Animation aim offset
 	--------------------
+	--------------------
+	Timer
+	--------------------
+	Set timer by event
+	Set timer by function
+	--------------------
+	Math
+	--------------------
+	Clamp				-> Returns a value between two given numbers
