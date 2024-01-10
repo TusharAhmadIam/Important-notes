@@ -1,5 +1,5 @@
 Important notes for UE 5
-
+-----------
 Bulueprint
 -----------
 	Flow controll
@@ -25,6 +25,8 @@ Bulueprint
 	Event BeginPlay				-> This event occurs when game start
 	Event ActorBeginOverlap		-> This event occurs when actor overlap something
 	Event Trick					-> This event occurs in every fps such as (60 fps)
+	Get socket location
+	Get socket Rotation
 	-------------
 	Pause game
 	-------------
