@@ -22,6 +22,9 @@ Bulueprint
 	Get forward vector			-> Gets axis forward 
 	Get right vector			-> Gets axis righ
 	get turn					-> Gives turn value
+	Event BeginPlay				-> This event occurs when game start
+	Event ActorBeginOverlap		-> This event occurs when actor overlap something
+	Event Trick					-> This event occurs in every fps such as (60 fps)
 	-------------
 	Pause game
 	-------------
@@ -46,12 +49,6 @@ Bulueprint
 								-> Overwrite Game Mode from world settings
 	Hud (class)					-> Players Ammo, Health etc
 	Default Pawn class			-> Default player	
-	---------------
-	Bp_character
-	---------------
-	Event BeginPlay				-> This event occurs when game start
-	Event ActorBeginOverlap		-> This event occurs when actor overlap something
-	Event Trick					-> This event occurs in every fps such as (60 fps)
 	---------------
 	Animation
 	---------------
@@ -94,3 +91,11 @@ Bulueprint
 	Trace
 	--------------------
 	Line trace by channel
+	--------------------
+	Project world to screen		-> Gives Screen Position
+	Get viewport size
+	---------------------
+	Distance
+	---------------------
+	Distance 2d
+	Distance 3d
