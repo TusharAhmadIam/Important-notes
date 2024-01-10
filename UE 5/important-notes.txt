@@ -8,9 +8,8 @@ Bulueprint
 	Sequench (node)				-> One after one
 	Flip Flop (node)			-> Toggler between A - B
 	Gate (node)
-	--------------
-	Functions
-	--------------
+	interp to
+	vector length xy
 	Lerp						-> Returns percentage value
 	Lerp(vector)
 	--------------
@@ -91,3 +90,7 @@ Bulueprint
 	Math
 	--------------------
 	Clamp				-> Returns a value between two given numbers
+	--------------------
+	Trace
+	--------------------
+	Line trace by channel
