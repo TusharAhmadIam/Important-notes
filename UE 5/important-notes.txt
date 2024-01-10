@@ -60,6 +60,9 @@ Bulueprint
 	New save cached pose		-> 
 	Time remaining				-> Checks animation finish time
 	Interp to					-> Like timeline / Animates some value 
+	Animation montage
+	Layered blend per bone		-> It will separate body when animation
+	Animation aim offset
 	--------------
 	Direction
 	--------------
@@ -71,13 +74,6 @@ Bulueprint
 	Collapsing
 	--------------
 	Tips						-> Always try to avoid "collapse to function" - It will slow down your game a little - Try to use collapse to node and macroes
-	--------------------
-	Animation montage
-	--------------------
-	Layered blend per bone		-> It will separate body when animation
-	--------------------
-	Animation aim offset
-	--------------------
 	--------------------
 	Timer
 	--------------------
