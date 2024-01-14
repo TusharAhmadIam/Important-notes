@@ -27,6 +27,8 @@ Bulueprint
 	Event Trick					-> This event occurs in every fps such as (60 fps)
 	Get socket location
 	Get socket Rotation
+	Get actor location
+	Get player controller
 	-------------
 	Pause game
 	-------------
@@ -70,6 +72,7 @@ Bulueprint
 	--------------
 	get actor rotation			-> where is actor looking
 	get control rotation
+	get socket rotation
 	calculate direction
 	delta (rotator)				> it calculates the change between two rotation 
 	--------------
@@ -97,3 +100,10 @@ Bulueprint
 	---------------------
 	Distance 2d
 	Distance 3d
+	--------------------
+	Audio
+	--------------------
+	Play sound at location
+	Set boolean parameter
+	Set int parameter
+	Set float parameter
