@@ -59,6 +59,20 @@ Bulueprint
 	Power					-> Modify contrast
 	Switch					->
 	--------------
+	Niagra System
+	--------------
+	Emitter state 
+	Inatialize particle
+	Particle state
+	Add a renderer
+	Spawn rate
+	Add velocity
+	Shape location
+	Scale sprite size
+	Scale color
+	Vector noise force
+	Solve forces and velocity	
+	--------------
 	Game Mode
 	--------------
 	Tips					-> Change Default Game mode from project settings - maps and modes
